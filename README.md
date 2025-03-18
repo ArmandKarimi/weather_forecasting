@@ -29,20 +29,7 @@ The weather forecasting model is built using **PyTorch** and is based on an **LS
 | Training Epochs = 30 
 
 ## 📁 Project Structure
-```
-weather_forecasting/
-│── models/
-│   ├── model_LSTM.py  # LSTM model implementation
-│── output/
-│   ├── logs/  # Stores training logs
-│── src/
-│   ├── utils/
-│   │   ├── data_processing.py  # Preprocessing & feature engineering
-│   ├── config.py  # Configuration & hyperparameters
-│── main.py  # Training and evaluation script
-│── requirements.txt  # Dependencies
-│── README.md  # Project documentation
-```
+Project tree is available in project_structure.txt
 
 ## 🛠 Setup & Installation
 ### 1️⃣ **Clone the Repository**
@@ -70,11 +57,6 @@ python main.py
 
 ## 📊 Logging
 All training logs are automatically saved in `output/logs/app.log`. If the logs directory does not exist, it is created dynamically.
-
-## 🚀 Future Improvements
-- Implement **GRU** as an alternative to LSTM for performance comparison.
-- Use **attention mechanisms** to improve forecasting accuracy.
-- Optimize hyperparameters using **grid search** or **Bayesian optimization**.
 
 ## 📜 License
 This project is open-source and available under the **MIT License**.

@@ -31,4 +31,4 @@ def load_data():
 
 if __name__ == "__main__":
     df = load_data()
-    print(df.info())
+    print(df)

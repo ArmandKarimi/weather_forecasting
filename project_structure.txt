@@ -1,0 +1,32 @@
+.
+├── README.md
+├── main.py
+├── model
+├── notebook
+│   └── Jena_Weather_forecasting.ipynb
+├── output
+│   ├── logs
+│   └── plots
+│       └── temperature_prediction.png
+├── project_structure.txt
+├── pyvenv.cfg
+├── requirements.txt
+└── src
+    ├── config.py
+    ├── data
+    │   └── jena_climate_2009_2016.csv
+    ├── models
+    │   └── model_LSTM.py
+    ├── output
+    │   └── logs
+    │       └── app.log
+    ├── utils
+    │   ├── __init__.py
+    │   ├── data_processing.py
+    │   ├── fetch_data.py
+    │   ├── test_model.py
+    │   └── train_model.py
+    └── visualization
+        └── viz.py
+
+17 directories, 25 files

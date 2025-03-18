@@ -15,6 +15,9 @@ This project aims to develop a deep learning model using **Long Short-Term Memor
   - Wind direction (°)
   - Other atmospheric conditions
 
+## 📓 Notebook 
+A compelete Tutorial with extensive data analysis is available in the Notebook folder.
+
 ## 🔥 Model Architecture
 The weather forecasting model is built using **PyTorch** and is based on an **LSTM neural network** to capture temporal dependencies in time-series weather data.
 

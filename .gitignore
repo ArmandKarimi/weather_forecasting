@@ -7,15 +7,17 @@ __pycache__/
 venv/
 myenv/
 .env/
+.cfg
 
 # Ignore logs and outputs
 logs/
 output/
 plots/
+*.logs
 
-# Ignore Docker artifacts
-*.tar
-*.pth
+# datafile
+*.zip
+*.csv
 
 # Ignore Jupyter Notebook checkpoints (if any)
 .ipynb_checkpoints/
